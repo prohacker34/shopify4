@@ -1,5 +1,5 @@
 import { ShoppingCart, Search, Menu, Link as LinkIcon } from 'lucide-react';
-import { Link } from 'react-router-dom'; // <-- Add this import
+import { Link } from 'react-router-dom';
 
 export function Header({ cartItemCount, onCartClick }) {
   return (
@@ -15,6 +15,7 @@ export function Header({ cartItemCount, onCartClick }) {
             <nav className="hidden md:flex">
               <ul className="flex gap-6">
                 <li>
+
                   <Link
                     className="text-gray-700 hover:text-blue-600 transition-colors"
                     to="/"
@@ -25,9 +26,9 @@ export function Header({ cartItemCount, onCartClick }) {
                 <li>
                   <Link
                     className="text-gray-700 hover:text-blue-600 transition-colors"
-                    to="/products"
+                    to="/adminproducts"
                   >
-                    Products
+                    Admin
                   </Link>
                 </li>
                 <li>
@@ -43,7 +44,7 @@ export function Header({ cartItemCount, onCartClick }) {
                     className="text-gray-700 hover:text-blue-600 transition-colors"
                     to="/about"
                   >
-                    About <LinkIcon />
+                    About
                   </Link>
                 </li>
               </ul>
