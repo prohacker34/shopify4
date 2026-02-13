@@ -1,1 +1,1 @@
-export const API= "https://quickmart-backend-p2u0.onrender.com/"
+export const API= "https://quickmart-backend-p2u0.onrender.com"
