@@ -52,14 +52,7 @@ export function Header({ cartItemCount, onCartClick }) {
           </div>
 
           <div className="flex items-center gap-4">
-            <div className="hidden sm:flex items-center bg-gray-100 rounded-lg px-4 py-2 w-64">
-              <Search className="w-5 h-5 text-gray-400" />
-              <input
-                type="text"
-                placeholder="Search products..."
-                className="bg-transparent border-none outline-none ml-2 w-full"
-              />
-            </div>
+          
 
             <button
               onClick={onCartClick}
